@@ -1,0 +1,33 @@
+begin_playback_engine(Studio Drummer)
+set_recording_location(Teldex Studios, Berlin)
+set_developer(Native Instruments)
+set_release_year(2011)
+set_vst3_name(Kontakt 7/8 Player)
+
+% Kontakt 7, Kontakt 8, both should work
+set_vst3_id(5653544E694B376B6F6E74616B742037, 5653544E694B386B6F6E74616B742038)
+
+set_website(https://www.native-instruments.com/en/products/komplete/drums/studio-drummer/)
+set_microphone_configuration(Mix 1)
+set_cover_art(poster_studio_drummer.png)
+add_recommended_software_version(Kontakt 7)
+add_recommended_software_version(Kontakt 8)
+add_recommended_software_version(Studio Drummer 1.4.1)
+
+begin_product(NI Studio Drummer)
+set_long_product_name(Native Instruments Studio Drummer)
+
+begin_instrument(Garage Kit)
+set_noteperformer_override_sound(Drum set (sticks))
+set_vst3_preset(NI Studio Drummer - Garage Kit.vstpreset)
+add_sustain(CHANNEL=1, VEL, 1)
+
+begin_instrument(Session Kit)
+set_noteperformer_override_sound(Drum set (sticks))
+set_vst3_preset(NI Studio Drummer - Session Kit.vstpreset)
+add_sustain(CHANNEL=1, VEL, 1)
+
+begin_instrument(Stadium Kit)
+set_noteperformer_override_sound(Drum set (sticks))
+set_vst3_preset(NI Studio Drummer - Stadium Kit.vstpreset)
+add_sustain(CHANNEL=1, VEL, 1)
